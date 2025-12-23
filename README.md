@@ -6,7 +6,7 @@
 
 - 🌱 I’m currently learning **DataBricks, LangChain, Hugging face**
 
-- 👨‍💻 All of my projects are available at [https://rodagi-data-sparkle-portfolio.lovable.app](https://rodagi-data-sparkle-portfolio.lovable.app)
+- 👨‍💻 All of my projects are available at [sourabhrodagi.com](https://sourabhrodagi.com)
 
 - 📝 I regularly write articles on [Hacks to find jobs](Hacks to find jobs)
 
