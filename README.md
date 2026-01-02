@@ -14,7 +14,7 @@
 
 - 📫 How to reach me **srodagi@depaul.edu**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1nySJEBWGbCFmlOUek3g6disVMt0u57Gl/view?usp=sharing](https://reslink.io/reslink/data-analyst-2)
+- 📄 Know about my experiences [Resume](https://reslink.io/reslink/data-analyst-2)
 
 - ⚡ Fun fact **I can cook Python**
 
