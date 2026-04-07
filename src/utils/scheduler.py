@@ -28,15 +28,21 @@ class DataRefreshPipeline:
         setup_logging()
         logger.info("Data Refresh Pipeline initialized")
 
-    def collect_google_places(self):
+    def collect_google_places(self, zip_codes=None):
         """
         Collect Google Places data.
         """
         logger.info("=== Starting Google Places Collection ===")
         collector = GooglePlacesCollector()
         try:
-            collector.collect_all_chicago()
-            logger.success("✓ Google Places collection completed")
+            if zip_codes:
+                logger.info(f"Collecting for specific ZIP codes: {zip_codes}")
+                for zip_code in zip_codes:
+                    collector.collect_by_zip_code(zip_code)
+                logger.success("✓ Google Places collection completed")
+            else:
+                collector.collect_all_chicago()
+                logger.success("✓ Google Places collection completed")
             return True
         except Exception as e:
             logger.error(f"✗ Google Places collection failed: {e}")
@@ -44,15 +50,21 @@ class DataRefreshPipeline:
         finally:
             collector.close()
 
-    def collect_yelp(self):
+    def collect_yelp(self, zip_codes=None):
         """
         Collect Yelp data.
         """
         logger.info("=== Starting Yelp Collection ===")
         collector = YelpCollector()
         try:
-            collector.collect_all_chicago()
-            logger.success("✓ Yelp collection completed")
+            if zip_codes:
+                logger.info(f"Collecting for specific ZIP codes: {zip_codes}")
+                for zip_code in zip_codes:
+                    collector.collect_by_zip_code(zip_code)
+                logger.success("✓ Yelp collection completed")
+            else:
+                collector.collect_all_chicago()
+                logger.success("✓ Yelp collection completed")
             return True
         except Exception as e:
             logger.error(f"✗ Yelp collection failed: {e}")
@@ -92,7 +104,7 @@ class DataRefreshPipeline:
         finally:
             engine.close()
 
-    def run_full_refresh(self):
+    def run_full_refresh(self, zip_codes=None):
         """
         Run complete data refresh pipeline.
         """
@@ -109,11 +121,11 @@ class DataRefreshPipeline:
         }
 
         # Step 1: Collect Google Places data
-        results['google_places'] = self.collect_google_places()
+        results['google_places'] = self.collect_google_places(zip_codes=zip_codes)
         time.sleep(5)  # Brief pause between collections
 
         # Step 2: Collect Yelp data
-        results['yelp'] = self.collect_yelp()
+        results['yelp'] = self.collect_yelp(zip_codes=zip_codes)
         time.sleep(5)
 
         # Step 3: Collect Google Trends data
@@ -202,21 +214,39 @@ if __name__ == "__main__":
         default='all',
         help='Run specific component only'
     )
+    parser.add_argument(
+        '--zip',
+        type=str,
+        help='Comma-separated list of ZIP codes to collect (e.g., 60601,60602)'
+    )
+    parser.add_argument(
+        '--max-zips',
+        type=int,
+        help='Limit collection to first N ZIP codes from the full list'
+    )
 
     args = parser.parse_args()
+
+    # Parse ZIP codes
+    zip_codes = None
+    if args.zip:
+        zip_codes = [z.strip() for z in args.zip.split(',')]
+    elif args.max_zips:
+        from config.settings import CHICAGO_ZIP_CODES
+        zip_codes = CHICAGO_ZIP_CODES[:args.max_zips]
 
     pipeline = DataRefreshPipeline()
 
     if args.component == 'google':
-        pipeline.collect_google_places()
+        pipeline.collect_google_places(zip_codes=zip_codes)
     elif args.component == 'yelp':
-        pipeline.collect_yelp()
+        pipeline.collect_yelp(zip_codes=zip_codes)
     elif args.component == 'trends':
         pipeline.collect_trends()
     elif args.component == 'analysis':
         pipeline.run_analysis()
     else:
         if args.mode == 'once':
-            run_once()
+            pipeline.run_full_refresh(zip_codes=zip_codes)
         else:
             run_scheduled()
