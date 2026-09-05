@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Sourabh Rodagi</h1>
-<h3 align="center">Data Analyst and MS Business Analytics candidate at DePaul University. Strong in SQL, Python, R, Excel, Tableau, and Power BI. Experienced in data cleaning, analysis, and dashboarding. Focused on turning complex datasets into clear, decision ready insights.
+<h3 align="center">Data Analyst and MS Business Analytics graduate at DePaul University. Strong in SQL, Python, R, Excel, Tableau, and Power BI. Experienced in data cleaning, analysis, and dashboarding with storytelling. Focused on turning complex datasets into clear, decision ready insights.
 </h3>
 
 - 🔭 I’m currently working on [Platform for international studenst to find Volunteering opportunities on CPT/OPT](https://v0-new-project-yns7qja7vet.vercel.app/)
