@@ -1,5 +1,5 @@
 <h1 align="center">Sourabh Rodagi</h1>
-<h3 align="center">Analytics & Data Engineer — I build the layer people trust their numbers on.</h3>
+<h3 align="center">Analytics & Data Engineer: I build the layer people trust their numbers on.</h3>
 
 ---
 
