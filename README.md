@@ -25,6 +25,8 @@ Now: Analytics & AI Engineer @ DataCEVA. M.S. Business Analytics, DePaul (3.9).
 Learning: DBT, Snowflake, Semantic layer creation, Txt2SQL.
 Ask me about: dbt model layering, why your AI-generated SQL is confidently wrong, data quality that catches problems before stakeholders do.
 
-📫 srodagi@depaul.edu · [Portfolio](https://sourabhrodagi.com/) · [LinkedIn](https://linkedin.com/in/sourabh-rodagi)
-
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sourabhgithubcode&show_icons=true&locale=en&layout=compact" alt="sourabhgithubcode" /></p>
+<p align="center">
+<a href="mailto:srodagi@depaul.edu"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://sourabhrodagi.com/"><img src="https://img.shields.io/badge/Portfolio-2F2F2F?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8%2BPGxpbmUgeDE9IjIiIHkxPSIxMiIgeDI9IjIyIiB5Mj0iMTIiLz48cGF0aCBkPSJNMTIgMmExNS4zIDE1LjMgMCAwIDEgNCAxMCAxNS4zIDE1LjMgMCAwIDEtNCAxMCAxNS4zIDE1LjMgMCAwIDEtNC0xMCAxNS4zIDE1LjMgMCAwIDEgNC0xMHoiLz48L3N2Zz4%3D&logoColor=white" alt="Portfolio"/></a>
+<a href="https://linkedin.com/in/sourabh-rodagi"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+</p>
