@@ -14,7 +14,7 @@
 
 **Now:** Analytics & AI Engineer @ DataCEVA. M.S. Business Analytics, DePaul (3.9).
 
-**Learning:** Databricks, LangChain, Hugging Face.
+**Learning:** DBT, Snowflake, Semantic layer creation, Txt2SQL.
 
 **Ask me about:** dbt model layering, why your AI-generated SQL is confidently wrong, data quality that catches problems before stakeholders do.
 
