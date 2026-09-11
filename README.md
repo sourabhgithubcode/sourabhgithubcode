@@ -4,13 +4,13 @@
 What I do: Pipelines, dbt models, and dashboards that hold up under scrutiny.
 
 <p align="center">
-<img src="https://cdn.simpleicons.org/postgresql" width="48" height="48" alt="PostgreSQL" title="SQL (PostgreSQL)"/>&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/python" width="48" height="48" alt="Python" title="Python"/>&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/apacheairflow" width="48" height="48" alt="Airflow" title="Airflow"/>&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/snowflake" width="48" height="48" alt="Snowflake" title="Snowflake"/>&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/dbt" width="48" height="48" alt="dbt" title="dbt"/>&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/powerbi" width="48" height="48" alt="Power BI" title="Power BI"/>&nbsp;&nbsp;
-<img src="https://cdn.simpleicons.org/tableau" width="48" height="48" alt="Tableau" title="Tableau"/>
+<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/postgresql.svg" width="48" height="48" alt="PostgreSQL" title="SQL (PostgreSQL)"/>&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/python.svg" width="48" height="48" alt="Python" title="Python"/>&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/airflow-icon.svg" width="48" height="48" alt="Airflow" title="Airflow"/>&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/snowflake-icon.svg" width="48" height="48" alt="Snowflake" title="Snowflake"/>&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/dbt-icon.svg" width="48" height="48" alt="dbt" title="dbt"/>&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/microsoft-power-bi.svg" width="48" height="48" alt="Power BI" title="Power BI"/>&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/tableau-icon.svg" width="48" height="48" alt="Tableau" title="Tableau"/>
 </p>
 
 What that's been worth:
@@ -26,7 +26,7 @@ Learning: DBT, Snowflake, Semantic layer creation, Txt2SQL.
 Ask me about: dbt model layering, why your AI-generated SQL is confidently wrong, data quality that catches problems before stakeholders do.
 
 <p align="center">
-<a href="mailto:srodagi@depaul.edu"><img src="https://cdn.simpleicons.org/microsoftoutlook" width="40" height="40" alt="Email" title="srodagi@depaul.edu"/></a>&nbsp;&nbsp;
+<a href="mailto:srodagi@depaul.edu"><img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/microsoft-icon.svg" width="40" height="40" alt="Email" title="srodagi@depaul.edu"/></a>&nbsp;&nbsp;
 <a href="https://sourabhrodagi.com/">Portfolio</a>&nbsp;&nbsp;
-<a href="https://linkedin.com/in/sourabh-rodagi"><img src="https://cdn.simpleicons.org/linkedin" width="40" height="40" alt="LinkedIn" title="LinkedIn"/></a>
+<a href="https://linkedin.com/in/sourabh-rodagi"><img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/linkedin-icon.svg" width="40" height="40" alt="LinkedIn" title="LinkedIn"/></a>
 </p>
