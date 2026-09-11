@@ -4,13 +4,13 @@
 What I do: Pipelines, dbt models, and dashboards that hold up under scrutiny.
 
 <p align="center">
-<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white" alt="Airflow"/>
-<img src="https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white" alt="Snowflake"/>
-<img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white" alt="dbt"/>
-<img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Power BI"/>
-<img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" alt="Tableau"/>
+<img src="https://cdn.simpleicons.org/postgresql" width="48" height="48" alt="PostgreSQL" title="SQL (PostgreSQL)"/>&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/python" width="48" height="48" alt="Python" title="Python"/>&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/apacheairflow" width="48" height="48" alt="Airflow" title="Airflow"/>&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/snowflake" width="48" height="48" alt="Snowflake" title="Snowflake"/>&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/dbt" width="48" height="48" alt="dbt" title="dbt"/>&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/powerbi" width="48" height="48" alt="Power BI" title="Power BI"/>&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/tableau" width="48" height="48" alt="Tableau" title="Tableau"/>
 </p>
 
 What that's been worth:
@@ -26,7 +26,7 @@ Learning: DBT, Snowflake, Semantic layer creation, Txt2SQL.
 Ask me about: dbt model layering, why your AI-generated SQL is confidently wrong, data quality that catches problems before stakeholders do.
 
 <p align="center">
-<a href="mailto:srodagi@depaul.edu"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://sourabhrodagi.com/"><img src="https://img.shields.io/badge/Portfolio-2F2F2F?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8%2BPGxpbmUgeDE9IjIiIHkxPSIxMiIgeDI9IjIyIiB5Mj0iMTIiLz48cGF0aCBkPSJNMTIgMmExNS4zIDE1LjMgMCAwIDEgNCAxMCAxNS4zIDE1LjMgMCAwIDEtNCAxMCAxNS4zIDE1LjMgMCAwIDEtNC0xMCAxNS4zIDE1LjMgMCAwIDEgNC0xMHoiLz48L3N2Zz4%3D&logoColor=white" alt="Portfolio"/></a>
-<a href="https://linkedin.com/in/sourabh-rodagi"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:srodagi@depaul.edu"><img src="https://cdn.simpleicons.org/microsoftoutlook" width="40" height="40" alt="Email" title="srodagi@depaul.edu"/></a>&nbsp;&nbsp;
+<a href="https://sourabhrodagi.com/">Portfolio</a>&nbsp;&nbsp;
+<a href="https://linkedin.com/in/sourabh-rodagi"><img src="https://cdn.simpleicons.org/linkedin" width="40" height="40" alt="LinkedIn" title="LinkedIn"/></a>
 </p>
