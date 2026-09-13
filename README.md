@@ -26,7 +26,5 @@ Learning: DBT, Snowflake, Semantic layer creation, Txt2SQL.
 Ask me about: dbt model layering, why your AI-generated SQL is confidently wrong, data quality that catches problems before stakeholders do.
 
 <p align="center">
-<a href="mailto:srodagi@depaul.edu"><img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/microsoft-icon.svg" width="40" height="40" alt="Email" title="srodagi@depaul.edu"/></a>&nbsp;&nbsp;
-<a href="https://sourabhrodagi.com/">Portfolio</a>&nbsp;&nbsp;
-<a href="https://linkedin.com/in/sourabh-rodagi"><img src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/linkedin-icon.svg" width="40" height="40" alt="LinkedIn" title="LinkedIn"/></a>
+<a href="mailto:srodagi@depaul.edu">Email</a> · <a href="https://sourabhrodagi.com/">Portfolio</a> · <a href="https://linkedin.com/in/sourabh-rodagi">LinkedIn</a>
 </p>
